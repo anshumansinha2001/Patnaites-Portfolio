@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anshumansinha2001.github.io/Patnaites-Portfolio/static/css/main.aaeeb4bd.css",
+    "main.js": "/anshumansinha2001.github.io/Patnaites-Portfolio/static/js/main.15cafb73.js",
+    "index.html": "/anshumansinha2001.github.io/Patnaites-Portfolio/index.html",
+    "main.aaeeb4bd.css.map": "/anshumansinha2001.github.io/Patnaites-Portfolio/static/css/main.aaeeb4bd.css.map",
+    "main.15cafb73.js.map": "/anshumansinha2001.github.io/Patnaites-Portfolio/static/js/main.15cafb73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaeeb4bd.css",
+    "static/js/main.15cafb73.js"
+  ]
+}

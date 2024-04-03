@@ -35,7 +35,7 @@ const Title = styled.div`
   font-size: 42px;
   text-align: center;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 80px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -143,32 +143,30 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_ebrmhfu",
-        "template_ladvmjk",
-        form.current,
-        "vTBUgGcL_OvM5TUOv"
-      )
-      .then(
-        (result) => {
-          toast.success("Sent successfully !");
-          form.current.reset();
-        },
-        (error) => {
-          toast.error("Failed to send. Please try again later.");
-          console.log("FAILED...", error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     "service_ebrmhfu",
+    //     "template_ladvmjk",
+    //     form.current,
+    //     "vTBUgGcL_OvM5TUOv"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       toast.success("Sent successfully !");
+    //       form.current.reset();
+    //     },
+    //     (error) => {
+    //       toast.error("Failed to send. Please try again later.");
+    //       console.log("FAILED...", error.text);
+    //     }
+    //   );
   };
 
   return (
     <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>
-          Feel free to reach out to me for any questions or opportunities!
-        </Desc>
+        <Desc>Looking for help? Reach out to our team for prompt support!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 📩</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" required />

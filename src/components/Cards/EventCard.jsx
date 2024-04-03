@@ -139,26 +139,26 @@ const Skill = styled.div`
   }
 `;
 
-const ExperienceCard = ({ experience }) => {
+const EventCard = ({ event }) => {
   return (
     <Card>
       <Top>
-        <Image src={experience.img} />
+        <Image src={event.img} />
         <Body>
-          <Role>{experience.role}</Role>
-          <Company>{experience.company}</Company>
-          <Date>{experience.date}</Date>
+          <Role>{event.role}</Role>
+          <Company>{event.company}</Company>
+          <Date>{event.date}</Date>
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience?.desc}</Span>}
-        {experience?.skills && (
+        {event?.desc && <Span>{event?.desc}</Span>}
+        {event?.skills && (
           <>
             <br />
             <Skills>
-              <b>Skills:</b>
+              <b>Things:</b>
               <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
+                {event?.skills?.map((skill, index) => (
                   <Skill key={index}>• {skill}</Skill>
                 ))}
               </ItemWrapper>
@@ -166,13 +166,13 @@ const ExperienceCard = ({ experience }) => {
           </>
         )}
       </Description>
-      {experience.doc && (
-        <a href={experience.doc} target="new">
-          <Document src={experience.doc} />
+      {event.doc && (
+        <a href={event.doc} target="new">
+          <Document src={event.doc} />
         </a>
       )}
     </Card>
   );
 };
 
-export default ExperienceCard;
+export default EventCard;

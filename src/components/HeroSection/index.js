@@ -20,6 +20,11 @@ import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
 const HeroSection = () => {
+  const phoneNumber = "1234567890"; // Replace this with your phone number
+
+  const handleCall = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
   return (
     <div id="about">
       <HeroContainer>
@@ -33,7 +38,6 @@ const HeroSection = () => {
               <br /> {Bio.name}
             </Title>
             <TextLoop>
-              :
               <Span>
                 <Typewriter
                   options={{
@@ -45,9 +49,7 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
-              Check Resume
-            </ResumeButton>
+            <ResumeButton onClick={handleCall}>📲 Tap to Call</ResumeButton>
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">

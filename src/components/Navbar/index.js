@@ -47,15 +47,13 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          <NavLink href="#services">Services</NavLink>
+          <NavLink href="#event">Events</NavLink>
+          <NavLink href="#contact">Contact Us</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">
-            Github Profile
+          <GitHubButton href={Bio.adminProfile} target="_blank">
+            Admin Profile
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (
@@ -69,44 +67,29 @@ const Navbar = () => {
               About
             </MobileLink>
             <MobileLink
-              href="#skills"
+              href="#services"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
-              Skills
+              Services
             </MobileLink>
             <MobileLink
-              href="#experience"
+              href="#event"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
-              Experience
+              Events
             </MobileLink>
-            <MobileLink
-              href="#projects"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Projects
-            </MobileLink>
-            <MobileLink
-              href="#education"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Education
-            </MobileLink>
+
             <MobileLink
               href="#contact"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
-              Contact
+              Contact Us
             </MobileLink>
             <GitHubButton
               style={{
@@ -115,10 +98,10 @@ const Navbar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href={Bio.github}
+              href={Bio.adminProfile}
               target="_blank"
             >
-              Github Profile
+              Admin Profile
             </GitHubButton>
           </MobileMenu>
         )}

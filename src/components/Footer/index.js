@@ -90,12 +90,13 @@ const Creator = styled.p`
 `;
 
 const CreatorName = styled.a`
-  color: ${({ theme }) => theme.text_primary};
+  color: yellow;
   text-decoration: none;
   font-size: 0.8rem;
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: white;
+    font-weight: 600;
   }
   @media (max-width: 768px) {
     font-size: 0.7rem;
@@ -106,13 +107,12 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Patnaites</Logo>
+        <Logo>Patnaites | Coolours of Bihar🌟</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#services">Services</NavLink>
+          <NavLink href="#event">Events</NavLink>
+          <NavLink href="#contact">Contact Us</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
@@ -133,6 +133,7 @@ function Footer() {
           - Created by{" "}
           <CreatorName
             href="https://www.linkedin.com/in/anshumansinha2001"
+            target="_blank"
             className="text-white"
           >
             Anshuman Sinha

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { skills } from "../../data/constants";
+import { services } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -29,7 +29,7 @@ export const Title = styled.div`
   font-size: 42px;
   text-align: center;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 80px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -112,25 +112,22 @@ const SkillItem = styled.div`
 `;
 
 const SkillImage = styled.img`
-  width: 24px;
-  height: 24px;
+  width: 54px;
+  height: 54px;
 `;
 
-const Skills = () => {
+const OurServices = () => {
   return (
-    <Container id="skills">
+    <Container id="services">
       <Wrapper>
-        <Title>Skills</Title>
-        <Desc>
-          Here are some of my skills on which I have been working on for the
-          past few months.
-        </Desc>
+        <Title>Our Services</Title>
+        <Desc>Here are some Highlight of the services we offer.</Desc>
         <SkillsContainer>
-          {skills.map((skill, index) => (
+          {services.map((service, index) => (
             <Skill key={index}>
-              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillTitle>{service.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item, index) => (
+                {service.services.map((item, index) => (
                   <SkillItem key={index}>
                     <SkillImage src={item.image} />
                     {item.name}
@@ -145,4 +142,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default OurServices;

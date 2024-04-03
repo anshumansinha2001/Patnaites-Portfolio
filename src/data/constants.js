@@ -46,15 +46,16 @@ export const services = [
     title: "For Marketing",
     services: [
       {
-        name: "Influencer Marketing",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1jDjftdJUiigHTkYo0bCMtlZQUol0VytmL0yshM-jA&s",
-      },
-      {
         name: "Content Marketing",
         image:
           "https://mediamantra.net/assests/Front/img/content-marketing.png",
       },
+      {
+        name: "Influencer Marketing",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1jDjftdJUiigHTkYo0bCMtlZQUol0VytmL0yshM-jA&s",
+      },
+
       {
         name: "Socail Media Marketing",
         image: "https://taiijas.com/wp-content/uploads/2020/12/smo-1.png",
@@ -71,7 +72,7 @@ export const events = [
     company: "TVS Motor Company",
     date: "Jan 2024 – Feb 2024",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corporis illo ipsum atque voluptatum aliquid deleniti exercitationem, veniam rerum. At quos unde voluptas fuga deserunt! Dolorem quidem iusto, quas possimus nulla in nobis perspiciatis dolor corrupti quaerat autem accusamus beatae sint totam, dolore harum ex ducimus. Labore impedit deleniti corrupti",
-    skills: ["marketing", "management", "logistics", "branding"],
+    skills: ["marketing", "branding"],
     doc: "https://get.foundation/assets/img/sites-templates/f6-template-realestate.svg",
   },
   {
@@ -81,7 +82,7 @@ export const events = [
     company: "Kia Motors",
     date: "Jan 2024 – Feb 2024",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corporis illo ipsum atque voluptatum aliquid deleniti exercitationem, veniam rerum. At quos unde voluptas fuga deserunt! Dolorem quidem iusto, quas possimus nulla in nobis perspiciatis dolor corrupti quaerat autem accusamus beatae sint totam, dolore harum ex ducimus. Labore impedit deleniti corrupti",
-    skills: ["marketing", "management", "logistics", "branding"],
+    skills: ["marketing", "branding"],
     doc: "https://get.foundation/assets/img/sites-templates/f6-template-realestate.svg",
   },
   {
@@ -91,7 +92,7 @@ export const events = [
     company: "IIT Patna",
     date: "Jan 2024 – Feb 2024",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corporis illo ipsum atque voluptatum aliquid deleniti exercitationem, veniam rerum. At quos unde voluptas fuga deserunt! Dolorem quidem iusto, quas possimus nulla in nobis perspiciatis dolor corrupti quaerat autem accusamus beatae sint totam, dolore harum ex ducimus. Labore impedit deleniti corrupti",
-    skills: ["marketing", "management", "logistics", "branding"],
+    skills: ["marketing", "branding"],
     doc: "https://get.foundation/assets/img/sites-templates/f6-template-realestate.svg",
   },
   {
@@ -101,7 +102,7 @@ export const events = [
     company: "Shree Hari Jewellery",
     date: "Jan 2024 – Feb 2024",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corporis illo ipsum atque voluptatum aliquid deleniti exercitationem, veniam rerum. At quos unde voluptas fuga deserunt! Dolorem quidem iusto, quas possimus nulla in nobis perspiciatis dolor corrupti quaerat autem accusamus beatae sint totam, dolore harum ex ducimus. Labore impedit deleniti corrupti",
-    skills: ["marketing", "management", "logistics", "branding"],
+    skills: ["marketing", "branding"],
     doc: "https://get.foundation/assets/img/sites-templates/f6-template-realestate.svg",
   },
   {
@@ -111,7 +112,7 @@ export const events = [
     company: "Amity University Patna",
     date: "Jan 2024 – Feb 2024",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corporis illo ipsum atque voluptatum aliquid deleniti exercitationem, veniam rerum. At quos unde voluptas fuga deserunt! Dolorem quidem iusto, quas possimus nulla in nobis perspiciatis dolor corrupti quaerat autem accusamus beatae sint totam, dolore harum ex ducimus. Labore impedit deleniti corrupti",
-    skills: ["marketing", "management", "logistics", "branding"],
+    skills: ["marketing", "branding"],
     doc: "https://get.foundation/assets/img/sites-templates/f6-template-realestate.svg",
   },
 ];

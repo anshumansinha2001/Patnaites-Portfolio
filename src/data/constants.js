@@ -1,8 +1,13 @@
 export const Bio = {
   name: "Patnaites",
-  roles: ["Exploring Patna's Soul", "Programmer"],
+  roles: [
+    "Exploring Patna's Soul",
+    "From Nostalgia to Now",
+    "Every Corner, Every Story",
+    "Where Tradition Meets Modernity",
+  ],
   description:
-    "Motivated and versatile final year college student with a passion for web development and a solid Java foundation. Recently completed MERN stack development, showcasing commitment to modern technologies. Eager to transition from a dedicated learner to a skilled developer, bringing a positive attitude, growth mindset, and dedication to delivering high-quality results. Actively seeking opportunities to contribute expertise to cutting-edge projects and achieve great things. Let's connect and explore potential collaborations!",
+    "Patnaites is the one of the best page from Patna, Bihar. We are working since 2016 Founded by Maalanch Yadav. We're one step solution of Digital Media Marketing, Content Creation, Product Photography, Brand Promotion, Page Handling, Graphic Designing (Influncer Market). The best thing about Patnaites page is its ''orgainic audience''. It is their love and care that makes us stand among the Top 5 Social Media Platform on the social media.",
   github: "https://github.com/anshumansinha2001",
   resume:
     "https://drive.google.com/file/d/1lgOXoV5XvpYtmkJqYiwiuVpVnOhx6FrU/view?usp=sharing",

@@ -82,12 +82,31 @@ const Copyright = styled.p`
   color: ${({ theme }) => theme.soft2};
   text-align: center;
 `;
+const Creator = styled.p`
+  margin-top: 0.8rem;
+  font-size: 0.6rem;
+  color: ${({ theme }) => theme.soft2};
+  text-align: center;
+`;
+
+const CreatorName = styled.a`
+  color: ${({ theme }) => theme.text_primary};
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+  @media (max-width: 768px) {
+    font-size: 0.7rem;
+  }
+`;
 
 function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Anshuman Sinha</Logo>
+        <Logo>Patnaites</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -109,7 +128,16 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Anshuman Sinha. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Patnaites. All rights reserved.</Copyright>
+        <Creator>
+          - Created by{" "}
+          <CreatorName
+            href="https://www.linkedin.com/in/anshumansinha2001"
+            className="text-white"
+          >
+            Anshuman Sinha
+          </CreatorName>
+        </Creator>
       </FooterWrapper>
     </FooterContainer>
   );

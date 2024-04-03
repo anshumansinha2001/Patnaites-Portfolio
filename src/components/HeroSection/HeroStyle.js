@@ -161,8 +161,9 @@ export const SubTitle = styled.div`
   }
 
   @media (max-width: 640px) {
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: start;
   }
 `;
 

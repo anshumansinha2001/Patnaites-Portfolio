@@ -18,6 +18,7 @@ import {
 import HeroImg from "../../images/HeroImage.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
+import styled from "styled-components";
 
 const HeroSection = () => {
   const phoneNumber = "1234567890"; // Replace this with your phone number
@@ -25,6 +26,17 @@ const HeroSection = () => {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
+
+  const Img = styled.img`
+    background: white;
+    width: 70%;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 98%;
+    @media (max-width: 640px) {
+      width: 60%;
+    }
+  `;
   return (
     <div id="about">
       <HeroContainer>

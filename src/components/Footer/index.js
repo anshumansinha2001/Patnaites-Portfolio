@@ -107,7 +107,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Patnaites | Coolours of Bihar 🌟</Logo>
+        <Logo>Patnaites | Colours of Bihar 🌟</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#services">Services</NavLink>

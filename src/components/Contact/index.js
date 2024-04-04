@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
 const Container = styled.div`
@@ -140,26 +139,30 @@ const ContactButton = styled.input`
 const Contact = () => {
   const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const ACCESS_KEY = "enter your key here";
 
-    // emailjs
-    //   .sendForm(
-    //     "service_ebrmhfu",
-    //     "template_ladvmjk",
-    //     form.current,
-    //     "vTBUgGcL_OvM5TUOv"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       toast.success("Sent successfully !");
-    //       form.current.reset();
-    //     },
-    //     (error) => {
-    //       toast.error("Failed to send. Please try again later.");
-    //       console.log("FAILED...", error.text);
-    //     }
-    //   );
+  // Handle Submit Form
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    toast.info("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", ACCESS_KEY);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      toast.success("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      toast.error("Failed!");
+    }
   };
 
   return (
@@ -167,7 +170,7 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Looking for help? Reach out to our team for prompt support!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={onSubmit}>
           <ContactTitle>Email Me 📩</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" required />
           <ContactInput placeholder="Your Name" name="from_name" required />

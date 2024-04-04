@@ -15,7 +15,7 @@ import {
   SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
-import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../images/HeroImage.png";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 import styled from "styled-components";
@@ -28,9 +28,11 @@ const HeroSection = () => {
   };
 
   const Img = styled.img`
+    background: white;
     width: 70%;
+    padding: 12px 0px;
     z-index: -1;
-    border-radius: 55%;
+    border-radius: 50%;
     opacity: 94%;
     @media (max-width: 640px) {
       width: 60%;

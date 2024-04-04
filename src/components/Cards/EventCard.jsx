@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Document = styled.img`
   display: none;
-  height: 70px;
+  height: auto;
   width: fit-content;
   background-color: #000;
   border-radius: 10px;

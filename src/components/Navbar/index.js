@@ -49,6 +49,7 @@ const Navbar = () => {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#services">Services</NavLink>
           <NavLink href="#event">Events</NavLink>
+          <NavLink href="#gallery">Gallery</NavLink>
           <NavLink href="#contact">Contact Us</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -81,6 +82,14 @@ const Navbar = () => {
               }}
             >
               Events
+            </MobileLink>
+            <MobileLink
+              href="#gallery"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Gallery
             </MobileLink>
 
             <MobileLink

@@ -7,12 +7,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import OurServices from "./components/OurServices";
-import Projects from "./components/Projects";
+import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Event from "./components/Event";
 import Education from "./components/Education";
-import ProjectDetails from "./components/ProjectDetails";
+import GalleryDetails from "./components/GalleryDetails";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -49,14 +49,14 @@ function App() {
             <OurServices />
             <Event />
           </Wrapper>
-          {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+          <Gallery openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             {/* <Education /> */}
             <Contact />
           </Wrapper>
           <Footer />
           {openModal.state && (
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+            <GalleryDetails openModal={openModal} setOpenModal={setOpenModal} />
           )}
         </Body>
       </Router>

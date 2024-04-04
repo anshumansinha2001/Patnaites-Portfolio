@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Bio } from "../../data/constants";
 
@@ -112,6 +112,7 @@ function Footer() {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#services">Services</NavLink>
           <NavLink href="#event">Events</NavLink>
+          <NavLink href="#gallery">Gallery</NavLink>
           <NavLink href="#contact">Contact Us</NavLink>
         </Nav>
         <SocialMediaIcons>
@@ -121,8 +122,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
+          <SocialMediaIcon href={Bio.youtube} target="display">
+            <YouTubeIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />

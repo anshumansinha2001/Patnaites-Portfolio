@@ -181,11 +181,11 @@ const Button = styled.a`
 `;
 
 const index = ({ openModal, setOpenModal }) => {
-  const project = openModal?.project;
+  const gallery = openModal?.gallery;
   return (
     <Modal
       open={true}
-      onClose={() => setOpenModal({ state: false, project: null })}
+      onClose={() => setOpenModal({ state: false, gallery: null })}
     >
       <Container>
         <Wrapper>
@@ -196,22 +196,22 @@ const index = ({ openModal, setOpenModal }) => {
               right: "20px",
               cursor: "pointer",
             }}
-            onClick={() => setOpenModal({ state: false, project: null })}
+            onClick={() => setOpenModal({ state: false, gallery: null })}
           />
-          <Image src={project?.image} />
-          <Title>{project?.title}</Title>
-          <Date>{project.date}</Date>
+          <Image src={gallery?.image} />
+          <Title>{gallery?.title}</Title>
+          <Date>{gallery.date}</Date>
           <Tags>
-            {project?.tags.map((tag) => (
+            {gallery?.tags.map((tag) => (
               <Tag>{tag}</Tag>
             ))}
           </Tags>
-          <Desc>{project?.description}</Desc>
-          {project.member && (
+          <Desc>{gallery?.description}</Desc>
+          {gallery.member && (
             <>
               <Label>Members</Label>
               <Members>
-                {project?.member.map((member) => (
+                {gallery?.member.map((member) => (
                   <Member>
                     <MemberImage src={member.img} />
                     <MemberName>{member.name}</MemberName>
@@ -234,14 +234,6 @@ const index = ({ openModal, setOpenModal }) => {
               </Members>
             </>
           )}
-          <ButtonGroup>
-            <Button dull href={project?.github} target="new">
-              View Code
-            </Button>
-            <Button href={project?.webapp} target="new">
-              View Live App
-            </Button>
-          </ButtonGroup>
         </Wrapper>
       </Container>
     </Modal>

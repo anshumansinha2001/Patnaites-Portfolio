@@ -16,7 +16,7 @@ const Button = styled.button`
 `;
 const Card = styled.div`
   width: 330px;
-  height: 490px;
+  height: auto;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -25,7 +25,7 @@ const Card = styled.div`
   padding: 26px 20px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 8px;
   transition: all 0.5s ease-in-out;
   &:hover {
     transform: translateY(-10px);
@@ -97,7 +97,7 @@ const Description = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 99};
   overflow: hidden;
-  margin-top: 8px;
+  ${"" /* margin-top: 8px; */}
   display: -webkit-box;
   max-width: 100%;
   -webkit-line-clamp: 3;
@@ -120,28 +120,28 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
-const ProjectCards = ({ project, setOpenModal }) => {
+const GalleryCards = ({ gallery, setOpenModal }) => {
   return (
-    <Card onClick={() => setOpenModal({ state: true, project: project })}>
-      <Image src={project.image} />
+    <Card onClick={() => setOpenModal({ state: true, gallery: gallery })}>
+      <Image src={gallery.image} />
       <Tags>
-        {project.tags?.map((tag, index) => (
+        {gallery.tags?.map((tag, index) => (
           <Tag key={index}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
-        <Title>{project.title}</Title>
-        <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Title>{gallery.title}</Title>
+        <Date>{gallery.date}</Date>
+        <Description>{gallery.description}</Description>
       </Details>
       <Members>
-        {project.member?.map((member, index) => (
+        {gallery.member?.map((member, index) => (
           <Avatar key={index} src={member.img} />
         ))}
       </Members>
-      {/* <Button>View Project</Button> */}
+      {/* <Button>View gallery</Button> */}
     </Card>
   );
 };
 
-export default ProjectCards;
+export default GalleryCards;

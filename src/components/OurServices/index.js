@@ -96,7 +96,7 @@ const SkillItem = styled.div`
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
   border-radius: 12px;
-  padding: 12px 16px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,6 +114,14 @@ const SkillItem = styled.div`
 const SkillImage = styled.img`
   width: 54px;
   height: 54px;
+  @media (max-width: 768px) {
+    width: 50px;
+    height: 50p;
+  }
+  @media (max-width: 500px) {
+    width: 45px;
+    height: 45px;
+  }
 `;
 
 const OurServices = () => {
@@ -121,7 +129,7 @@ const OurServices = () => {
     <Container id="services">
       <Wrapper>
         <Title>Our Services</Title>
-        <Desc>Here are some Highlight of the services we offer.</Desc>
+        <Desc>Here are some services we offer.</Desc>
         <SkillsContainer>
           {services.map((service, index) => (
             <Skill key={index}>

@@ -32,7 +32,7 @@ const HeroSection = () => {
     width: 70%;
     z-index: -1;
     border-radius: 50%;
-    opacity: 98%;
+    opacity: 96%;
     @media (max-width: 640px) {
       width: 60%;
     }

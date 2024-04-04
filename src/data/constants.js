@@ -3,6 +3,7 @@ import insight2 from "../images/insights/insight2.jpg";
 import insight3 from "../images/insights/insight3.jpg";
 import insight4 from "../images/insights/insight4.jpg";
 import insight5 from "../images/insights/insight5.jpg";
+import insight6 from "../images/insights/insight6.jpg";
 
 export const Bio = {
   name: "Patnaites",
@@ -151,7 +152,7 @@ export const gallerys = [
     date: "March 2022",
     description: "",
     image: insight1,
-    tags: ["Instagram"],
+    tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
   {
@@ -160,7 +161,7 @@ export const gallerys = [
     date: "March 2022",
     description: "",
     image: insight2,
-    tags: ["Instagram"],
+    tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
   {
@@ -169,7 +170,7 @@ export const gallerys = [
     date: "March 2022",
     description: "",
     image: insight3,
-    tags: ["Instagram"],
+    tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
   {
@@ -178,16 +179,25 @@ export const gallerys = [
     date: "March 2022",
     description: "",
     image: insight4,
-    tags: ["Instagram"],
+    tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
   {
-    id: 3,
+    id: 4,
     title: "Audience Demographics",
     date: "March 2022",
     description: "",
     image: insight5,
-    tags: ["Instagram"],
+    tags: ["Instagram", "Montly Growth"],
+    category: "insight",
+  },
+  {
+    id: 5,
+    title: "Content Performance",
+    date: "March 2022",
+    description: "",
+    image: insight6,
+    tags: ["Facebook", "Montly Growth"],
     category: "insight",
   },
 ];

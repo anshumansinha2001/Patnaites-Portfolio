@@ -28,11 +28,10 @@ const HeroSection = () => {
   };
 
   const Img = styled.img`
-    background: white;
     width: 70%;
     z-index: -1;
-    border-radius: 50%;
-    opacity: 96%;
+    border-radius: 55%;
+    opacity: 94%;
     @media (max-width: 640px) {
       width: 60%;
     }

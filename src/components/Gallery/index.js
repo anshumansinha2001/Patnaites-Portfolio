@@ -34,6 +34,25 @@ const Gallery = ({ openModal, setOpenModal }) => {
               Work Sample
             </ToggleButton>
           )}
+
+          <Divider />
+          {toggle === "photography" ? (
+            <ToggleButton
+              active
+              value="photography"
+              onClick={() => setToggle("photography")}
+            >
+              Photography
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value="photography"
+              onClick={() => setToggle("photography")}
+            >
+              Photography
+            </ToggleButton>
+          )}
+
           <Divider />
           {toggle === "insight" ? (
             <ToggleButton
@@ -49,6 +68,7 @@ const Gallery = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
         </ToggleButtonGroup>
+
         <CardContainer>
           {gallerys
             .filter((item) => item.category === toggle)

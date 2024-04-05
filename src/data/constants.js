@@ -7,13 +7,19 @@ import insight6 from "../images/insights/insight6.jpg";
 
 import sample1 from "../images/Samples/sample1.gif";
 import sample2 from "../images/Samples/sample2.gif";
+import sample3 from "../images/Samples/sample3.gif";
+
+import photography1 from "../images/Photography/photography1.PNG";
+import photography2 from "../images/Photography/photography2.PNG";
+import photography3 from "../images/Photography/photography3.JPG";
 
 export const Bio = {
   name: "Patnaites",
   roles: [
-    "Exploring Patna's Soul",
-    "From Nostalgia to Now",
-    "Every Corner, Every Story",
+    "Your Business Our Marketing",
+    "Ads",
+    "Product Photographer",
+    "Social Media",
   ],
   description:
     "Patnaites is one of the premier pages in Patna, Bihar, operating since 2016 and founded by Maalanch Yadav. We offer a comprehensive suite of services including Digital Media Marketing, Content Creation, Product Photography, Brand Promotion, Page Handling, and Graphic Designing (Influencer Market). What sets us apart is our organic audience - their unwavering support propels us into the Top 5 Social Media Platforms.",
@@ -109,7 +115,7 @@ export const events = [
     id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFg2JRZhIR7i1MTTLb_owkDBhrZaZMmalmr_Ii1lieQA0FcZY7Ajb7Qjr6fnUMxvQzxI&usqp=CAU",
     role: "Brand Promotion",
-    company: "Shree Hari Jewellery",
+    company: "Shree Hari Jewellers",
     date: "Oct 2023",
     desc: "Partnering with Shree Hari Jewellery, we've orchestrated a strategic brand promotion campaign, seamlessly blending creativity with market insights. Through compelling content and targeted outreach, we've amplified brand visibility, fostering deeper connections with our audience. Our collaboration epitomizes excellence in jewelry marketing, driving tangible results and enduring brand resonance.",
     skills: ["Marketing", "Promotion"],
@@ -205,7 +211,7 @@ export const gallerys = [
   },
   {
     id: 6,
-    title: "Shree Hari Jewellery",
+    title: "Shree Hari Jewellers",
     date: "Sept 2023",
     description: "",
     image: sample1,
@@ -220,5 +226,41 @@ export const gallerys = [
     image: sample2,
     tags: ["Product Marketing"],
     category: "sample",
+  },
+  {
+    id: 5,
+    title: "TVS Motor Company",
+    date: "Oct 2023",
+    description: "",
+    image: sample3,
+    tags: ["Product Marketing"],
+    category: "sample",
+  },
+  {
+    id: 6,
+    title: "Shree Hari Jewellers",
+    date: "May 2023",
+    description: "",
+    image: photography1,
+    tags: ["Product Marketing"],
+    category: "photography",
+  },
+  {
+    id: 7,
+    title: "Shree Hari Jewellers",
+    date: "April 2023",
+    description: "",
+    image: photography2,
+    tags: ["Product Marketing"],
+    category: "photography",
+  },
+  {
+    id: 8,
+    title: "ACQUA DI",
+    date: "Oct 2023",
+    description: "",
+    image: photography3,
+    tags: ["Product Marketing"],
+    category: "photography",
   },
 ];

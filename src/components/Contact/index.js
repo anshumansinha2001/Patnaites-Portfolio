@@ -139,7 +139,7 @@ const ContactButton = styled.input`
 const Contact = () => {
   const form = useRef();
 
-  const ACCESS_KEY = "enter your key here";
+  const ACCESS_KEY = "5914d9db-2bba-42b3-8f09-f6e7cb5c9cdd";
 
   // Handle Submit Form
   const onSubmit = async (event) => {
@@ -157,7 +157,9 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      toast.success("Form Submitted Successfully");
+      toast.success(
+        "Thank You For Contacting Patnaites. We'll get back to you soon!"
+      );
       event.target.reset();
     } else {
       console.log("Error", data);

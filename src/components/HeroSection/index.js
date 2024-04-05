@@ -21,7 +21,7 @@ import { Bio } from "../../data/constants";
 import styled from "styled-components";
 
 const HeroSection = () => {
-  const phoneNumber = "1234567890"; // Replace this with your phone number
+  const phoneNumber = "9504687133"; // Replace this with your phone number
 
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;

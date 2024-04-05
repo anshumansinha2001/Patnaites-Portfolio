@@ -1,26 +1,14 @@
 {
   "files": {
     "main.css": "/Patnaites-Portfolio/static/css/main.aaeeb4bd.css",
-    "main.js": "/Patnaites-Portfolio/static/js/main.f60072e7.js",
-    "static/media/sample3.gif": "/Patnaites-Portfolio/static/media/sample3.997348ca9d891a7f5865.gif",
-    "static/media/sample1.gif": "/Patnaites-Portfolio/static/media/sample1.5be773ed7d0d2380e801.gif",
-    "static/media/sample2.gif": "/Patnaites-Portfolio/static/media/sample2.636fd9226f32725eb44c.gif",
+    "main.js": "/Patnaites-Portfolio/static/js/main.6df29121.js",
     "static/media/HeroImage.png": "/Patnaites-Portfolio/static/media/HeroImage.640e02c40600cf6b0662.png",
-    "static/media/photography2.PNG": "/Patnaites-Portfolio/static/media/photography2.007104066909e7988bee.PNG",
-    "static/media/photography1.PNG": "/Patnaites-Portfolio/static/media/photography1.9c0cf8bb143bdba5d7eb.PNG",
-    "static/media/insight5.jpg": "/Patnaites-Portfolio/static/media/insight5.b7f5a5b8a89051680148.jpg",
-    "static/media/insight1.jpg": "/Patnaites-Portfolio/static/media/insight1.dbaf69a76927c30fad43.jpg",
-    "static/media/insight6.jpg": "/Patnaites-Portfolio/static/media/insight6.ce8c545171292d4a47ab.jpg",
-    "static/media/insight3.jpg": "/Patnaites-Portfolio/static/media/insight3.d3383751eb5acbf1ef45.jpg",
-    "static/media/insight4.jpg": "/Patnaites-Portfolio/static/media/insight4.058a38ec84fa7c2fa2bb.jpg",
-    "static/media/insight2.jpg": "/Patnaites-Portfolio/static/media/insight2.ebedfc6126e919df3cf4.jpg",
-    "static/media/photography3.JPG": "/Patnaites-Portfolio/static/media/photography3.51be7d2a698eee493ba8.JPG",
     "index.html": "/Patnaites-Portfolio/index.html",
     "main.aaeeb4bd.css.map": "/Patnaites-Portfolio/static/css/main.aaeeb4bd.css.map",
-    "main.f60072e7.js.map": "/Patnaites-Portfolio/static/js/main.f60072e7.js.map"
+    "main.6df29121.js.map": "/Patnaites-Portfolio/static/js/main.6df29121.js.map"
   },
   "entrypoints": [
     "static/css/main.aaeeb4bd.css",
-    "static/js/main.f60072e7.js"
+    "static/js/main.6df29121.js"
   ]
 }

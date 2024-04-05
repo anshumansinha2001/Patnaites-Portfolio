@@ -5,6 +5,9 @@ import insight4 from "../images/insights/insight4.jpg";
 import insight5 from "../images/insights/insight5.jpg";
 import insight6 from "../images/insights/insight6.jpg";
 
+import sample1 from "../images/Samples/sample1.gif";
+import sample2 from "../images/Samples/sample2.gif";
+
 export const Bio = {
   name: "Patnaites",
   roles: [
@@ -199,5 +202,23 @@ export const gallerys = [
     image: insight6,
     tags: ["Facebook", "Montly Growth"],
     category: "insight",
+  },
+  {
+    id: 6,
+    title: "Shree Hari Jewellery",
+    date: "Sept 2023",
+    description: "",
+    image: sample1,
+    tags: ["Brand Promotion"],
+    category: "sample",
+  },
+  {
+    id: 4,
+    title: "TVS Motor Company",
+    date: "Oct 2023",
+    description: "",
+    image: sample2,
+    tags: ["Product Marketing"],
+    category: "sample",
   },
 ];

@@ -14,7 +14,7 @@ import GalleryCard from "../Cards/GalleryCards";
 import { gallerys } from "../../data/constants";
 
 const Gallery = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState("insight");
+  const [toggle, setToggle] = useState("sample");
   return (
     <Container id="gallery">
       <Wrapper>

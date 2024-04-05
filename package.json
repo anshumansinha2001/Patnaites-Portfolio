@@ -1,8 +1,9 @@
 {
   "name": "patnaites-portfolio",
   "version": "0.1.0",
-  "homepage": "https://anshumansinha2001.github.io/Patnaites-Portfolio",
+  "homepage": "./",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",

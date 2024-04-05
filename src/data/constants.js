@@ -1,20 +1,6 @@
-import insight1 from "../images/insights/insight1.jpg";
-import insight2 from "../images/insights/insight2.jpg";
-import insight3 from "../images/insights/insight3.jpg";
-import insight4 from "../images/insights/insight4.jpg";
-import insight5 from "../images/insights/insight5.jpg";
-import insight6 from "../images/insights/insight6.jpg";
-
-import sample1 from "../images/Samples/sample1.gif";
-import sample2 from "../images/Samples/sample2.gif";
-import sample3 from "../images/Samples/sample3.gif";
-
-import photography1 from "../images/Photography/photography1.PNG";
-import photography2 from "../images/Photography/photography2.PNG";
-import photography3 from "../images/Photography/photography3.JPG";
-
 export const Bio = {
   name: "Patnaites",
+  logo: "https://i.ibb.co/RH3fgJx/Hero-Image.png",
   roles: [
     "Your Business Our Marketing",
     "Ads",
@@ -83,14 +69,15 @@ export const services = [
 export const events = [
   {
     id: 0,
-    img: "https://www.liblogo.com/img-logo/tv6634tec9-tvs-logo-tvs-logo-vector-eps-381-57-kb-download.png",
-    role: "Brand Collabration",
-    company: "TVS Motor Company",
-    date: "Dec 2023",
-    desc: "Through a strategic collaboration with TVS Motors, our brand has undertaken a compelling promotional campaign, showcasing the innovative spirit and quality craftsmanship synonymous with TVS. Leveraging their renowned reputation in the automotive industry, we've successfully elevated brand visibility, fostering mutually beneficial growth and engagement within our target audience.",
-    skills: ["Marketing", "Promotion"],
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Indian_Institute_of_Technology%2C_Patna.svg/1200px-Indian_Institute_of_Technology%2C_Patna.svg.png",
+    role: "Social Media Influencer",
+    company: "IIT Patna",
+    date: "April 2023",
+    desc: "We are honored to collaborate with IIT Patna as esteemed guest social media influencers. This partnership reflects our commitment to fostering academic engagement and innovation. Through our platform, we aim to amplify the university's mission, highlighting its cutting-edge research, academic achievements, and vibrant campus culture to a global audience.",
+    skills: ["Media Partner"],
     doc: " ",
   },
+
   {
     id: 1,
     img: "https://e7.pngegg.com/pngimages/420/100/png-clipart-kia-motors-europe-logo-2014-kia-optima-brand-kia-sportage-1995-text-trademark-thumbnail.png",
@@ -103,12 +90,12 @@ export const events = [
   },
   {
     id: 2,
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Indian_Institute_of_Technology%2C_Patna.svg/1200px-Indian_Institute_of_Technology%2C_Patna.svg.png",
-    role: "Social Media Influencer",
-    company: "IIT Patna",
-    date: "April 2023",
-    desc: "We are honored to collaborate with IIT Patna as esteemed guest social media influencers. This partnership reflects our commitment to fostering academic engagement and innovation. Through our platform, we aim to amplify the university's mission, highlighting its cutting-edge research, academic achievements, and vibrant campus culture to a global audience.",
-    skills: ["Media Partner"],
+    img: "https://www.liblogo.com/img-logo/tv6634tec9-tvs-logo-tvs-logo-vector-eps-381-57-kb-download.png",
+    role: "Brand Collabration",
+    company: "TVS Motor Company",
+    date: "Dec 2023",
+    desc: "Through a strategic collaboration with TVS Motors, our brand has undertaken a compelling promotional campaign, showcasing the innovative spirit and quality craftsmanship synonymous with TVS. Leveraging their renowned reputation in the automotive industry, we've successfully elevated brand visibility, fostering mutually beneficial growth and engagement within our target audience.",
+    skills: ["Marketing", "Promotion"],
     doc: " ",
   },
   {
@@ -160,7 +147,7 @@ export const gallerys = [
     title: "Reach and Impressions",
     date: "May 2023",
     description: "",
-    image: insight1,
+    image: "https://i.ibb.co/3k8bVQR/insight1.jpg",
     tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
@@ -169,7 +156,7 @@ export const gallerys = [
     title: "Engagement Metrics",
     date: "Jan 2023",
     description: "",
-    image: insight2,
+    image: "https://i.ibb.co/yVq033j/insight2.jpg",
     tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
@@ -178,7 +165,7 @@ export const gallerys = [
     title: "Content Performance",
     date: "July 2023",
     description: "",
-    image: insight3,
+    image: "https://i.ibb.co/wcnY6jV/insight3.jpg",
     tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
@@ -187,7 +174,7 @@ export const gallerys = [
     title: "Content Performance",
     date: "Oct 2022",
     description: "",
-    image: insight4,
+    image: "https://i.ibb.co/KDbvJDR/insight4.jpg",
     tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
@@ -196,7 +183,7 @@ export const gallerys = [
     title: "Audience Demographics",
     date: "Nov 2023",
     description: "",
-    image: insight5,
+    image: "https://i.ibb.co/DLM6rtR/insight5.jpg",
     tags: ["Instagram", "Montly Growth"],
     category: "insight",
   },
@@ -205,16 +192,17 @@ export const gallerys = [
     title: "Content Performance",
     date: "Sept 2022",
     description: "",
-    image: insight6,
+    image: "https://i.ibb.co/yyHHJ5J/insight6.jpg",
     tags: ["Facebook", "Montly Growth"],
     category: "insight",
   },
+
   {
     id: 6,
     title: "Shree Hari Jewellers",
     date: "Sept 2023",
     description: "",
-    image: sample1,
+    image: " https://i.ibb.co/Vqf1Jk2/sample1.gif",
     tags: ["Brand Promotion"],
     category: "sample",
   },
@@ -223,16 +211,16 @@ export const gallerys = [
     title: "TVS Motor Company",
     date: "Oct 2023",
     description: "",
-    image: sample2,
+    image: "https://i.ibb.co/0KW4Qkz/sample2.gif",
     tags: ["Product Marketing"],
     category: "sample",
   },
   {
     id: 5,
-    title: "TVS Motor Company",
+    title: "Cloud Kitchen",
     date: "Oct 2023",
     description: "",
-    image: sample3,
+    image: "https://i.ibb.co/FnD7Pdc/sample3.gif",
     tags: ["Product Marketing"],
     category: "sample",
   },
@@ -241,8 +229,8 @@ export const gallerys = [
     title: "Shree Hari Jewellers",
     date: "May 2023",
     description: "",
-    image: photography1,
-    tags: ["Product Marketing"],
+    image: "https://i.ibb.co/xGQSvkx/Photography1.jpg",
+    tags: ["Product Photographyg"],
     category: "photography",
   },
   {
@@ -250,17 +238,26 @@ export const gallerys = [
     title: "Shree Hari Jewellers",
     date: "April 2023",
     description: "",
-    image: photography2,
-    tags: ["Product Marketing"],
+    image: "https://i.ibb.co/d4J1447/Photography2.jpg",
+    tags: ["Product Photography"],
     category: "photography",
   },
   {
     id: 8,
-    title: "ACQUA DI",
-    date: "Oct 2023",
+    title: "Pyne Square",
+    date: "June 2023",
     description: "",
-    image: photography3,
-    tags: ["Product Marketing"],
+    image: "https://i.ibb.co/fkn4XD5/Photography3.jpg",
+    tags: ["Product Photography"],
+    category: "photography",
+  },
+  {
+    id: 9,
+    title: "ACQUA DI",
+    date: "July 2023",
+    description: "",
+    image: "https://i.ibb.co/CwFZWVD/Photography4.jpg",
+    tags: ["Product Photography"],
     category: "photography",
   },
 ];

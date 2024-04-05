@@ -123,7 +123,7 @@ const Avatar = styled.img`
 const GalleryCards = ({ gallery, setOpenModal }) => {
   return (
     <Card onClick={() => setOpenModal({ state: true, gallery: gallery })}>
-      <Image src={gallery.image} />
+      <Image src={gallery.image} alt="gallery image" />
       <Tags>
         {gallery.tags?.map((tag, index) => (
           <Tag key={index}>{tag}</Tag>

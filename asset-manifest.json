@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Patnaites-Portfolio/static/css/main.aaeeb4bd.css",
-    "main.js": "/Patnaites-Portfolio/static/js/main.53ae1cae.js",
+    "main.js": "/Patnaites-Portfolio/static/js/main.76fbe504.js",
     "static/media/sample1.gif": "/Patnaites-Portfolio/static/media/sample1.5be773ed7d0d2380e801.gif",
     "static/media/sample2.gif": "/Patnaites-Portfolio/static/media/sample2.636fd9226f32725eb44c.gif",
     "static/media/HeroImage.png": "/Patnaites-Portfolio/static/media/HeroImage.640e02c40600cf6b0662.png",
@@ -13,10 +13,10 @@
     "static/media/insight2.jpg": "/Patnaites-Portfolio/static/media/insight2.ebedfc6126e919df3cf4.jpg",
     "index.html": "/Patnaites-Portfolio/index.html",
     "main.aaeeb4bd.css.map": "/Patnaites-Portfolio/static/css/main.aaeeb4bd.css.map",
-    "main.53ae1cae.js.map": "/Patnaites-Portfolio/static/js/main.53ae1cae.js.map"
+    "main.76fbe504.js.map": "/Patnaites-Portfolio/static/js/main.76fbe504.js.map"
   },
   "entrypoints": [
     "static/css/main.aaeeb4bd.css",
-    "static/js/main.53ae1cae.js"
+    "static/js/main.76fbe504.js"
   ]
 }

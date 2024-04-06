@@ -171,15 +171,6 @@ export const gallerys = [
   },
   {
     id: 3,
-    title: "Content Performance",
-    date: "Oct 2022",
-    description: "",
-    image: "https://i.ibb.co/KDbvJDR/insight4.jpg",
-    tags: ["Instagram", "Montly Growth"],
-    category: "insight",
-  },
-  {
-    id: 4,
     title: "Audience Demographics",
     date: "Nov 2023",
     description: "",
@@ -188,7 +179,7 @@ export const gallerys = [
     category: "insight",
   },
   {
-    id: 5,
+    id: 4,
     title: "Content Performance",
     date: "Sept 2022",
     description: "",
@@ -198,7 +189,7 @@ export const gallerys = [
   },
 
   {
-    id: 6,
+    id: 5,
     title: "Shree Hari Jewellers",
     date: "Jan 2024",
     description: "",
@@ -207,7 +198,7 @@ export const gallerys = [
     category: "sample",
   },
   {
-    id: 4,
+    id: 6,
     title: "TVS Motor Company",
     date: "Oct 2023",
     description: "",
@@ -216,7 +207,7 @@ export const gallerys = [
     category: "sample",
   },
   {
-    id: 5,
+    id: 7,
     title: "House of Bowls",
     date: "Nov 2023",
     description: "",
@@ -225,7 +216,7 @@ export const gallerys = [
     category: "sample",
   },
   {
-    id: 6,
+    id: 8,
     title: "Shree Hari Jewellers",
     date: "Dec 2023",
     description: "",
@@ -234,7 +225,7 @@ export const gallerys = [
     category: "photography",
   },
   {
-    id: 7,
+    id: 9,
     title: "Shree Hari Jewellers",
     date: "Jan 2024",
     description: "",
@@ -243,7 +234,7 @@ export const gallerys = [
     category: "photography",
   },
   {
-    id: 8,
+    id: 10,
     title: "Pyne Square",
     date: "June 2023",
     description: "",
@@ -252,7 +243,7 @@ export const gallerys = [
     category: "photography",
   },
   {
-    id: 9,
+    id: 11,
     title: "ACQUA DI",
     date: "July 2023",
     description: "",

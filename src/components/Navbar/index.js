@@ -35,7 +35,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="3rem" /> <Span>Patnaites Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -53,8 +53,8 @@ const Navbar = () => {
           <NavLink href="#contact">Contact Us</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.adminProfile} target="_blank">
-            Admin Profile
+          <GitHubButton href={Bio.adsProfile} target="_blank">
+            Insta Promos
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (
@@ -107,10 +107,10 @@ const Navbar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href={Bio.adminProfile}
+              href={Bio.adsProfile}
               target="_blank"
             >
-              Admin Profile
+              Insta Promos
             </GitHubButton>
           </MobileMenu>
         )}

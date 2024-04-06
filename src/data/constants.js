@@ -8,8 +8,8 @@ export const Bio = {
     "Social Media",
   ],
   description:
-    "Patnaites is one of the premier pages in Patna, Bihar, operating since 2016 and founded by Maalanch Yadav. We offer a comprehensive suite of services including Digital Media Marketing, Content Creation, Product Photography, Brand Promotion, Page Handling, and Graphic Designing (Influencer Market). What sets us apart is our organic audience - their unwavering support propels us into the Top 5 Social Media Platforms.",
-  adminProfile: "https://www.instagram.com/maalanch",
+    "Patnaites Page, established in 2016 by Maalanch Yadav, stands as a prominent social media hub in Patna, Bihar. With a vast following exceeding 3 lakh+ family on platforms like Facebook, Instagram, and YouTube, and a total monthly reach well exceeding 10,0000+ (10 million), it has solidified its position as a top page. Offering a wide array of social media services, including product photography, ads, video ads, and graphic design, Patnaites Page caters to diverse digital marketing needs with expertise and creativity.",
+  adsProfile: "https://www.instagram.com/patnaites_ad",
   resume:
     "https://drive.google.com/file/d/1lgOXoV5XvpYtmkJqYiwiuVpVnOhx6FrU/view?usp=sharing",
   youtube: "https://www.youtube.com/@Patnaites_Official",

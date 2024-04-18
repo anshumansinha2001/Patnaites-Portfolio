@@ -4,7 +4,7 @@ export const Bio = {
   roles: [
     "Your Business Our Marketing",
     "Ads",
-    "Product Photographer",
+    "Product Photography",
     "Social Media",
   ],
   description:
